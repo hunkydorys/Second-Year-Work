@@ -31,19 +31,16 @@ public class LongestPairOfEnglishWords {
 						{
 							 one= str1;
 							 two = str2;
-							 System.out.println(one + " " + two);
 						} 
 					}
 				}
 			}
 			}
 		}
-		// haveSameLetters("aabb", "aabb");
 		System.out.println(one + " " + two);
 
 	}
 
-	// assume they have the same length
 	public static boolean haveSameLetters(Map hit, String str2) {
 
 		HashMap<Character, Integer> hit2 = (HashMap<Character, Integer>) putIntoHashMap(str2);
