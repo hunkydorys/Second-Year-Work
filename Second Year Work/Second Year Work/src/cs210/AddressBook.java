@@ -1,4 +1,4 @@
-package Cs210;
+package cs210;
 public class AddressBook{
 
       private String[] contacts = {"Alan", "Brendan", "Declan", "Fiona", "Garrath", "James", "John", "Karl", "Kate", "Louise", "Niall", "Olivia", "Paddy", "Rebecca", "Sarah", "Tony", "blank", "blank"};
